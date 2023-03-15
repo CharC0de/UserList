@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Roboto&family=Roboto+Slab&family=Signika:wght@300&display=swap');
+*{
+margin: 0;
+padding: 0;
+left: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Signika', sans-serif; 
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: yellow;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+main .userList{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main .userList .contentHeader{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    font-size: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+main .userList .mainContent p{
+    font-size: 25px;
+    margin-left: 10px;
+}
+#Student{
+    background-color: greenyellow;
+}
+#Teacher{
+    background-color: rgb(133, 133, 255);
+}
+#Faculty{
+    background-color: wheat;
+}
+footer{
+    background-color: red;
+    color: white;
+    display: flex;
+}
+main{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+    }
+}
